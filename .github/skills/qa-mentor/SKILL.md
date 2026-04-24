@@ -27,3 +27,20 @@ When the user asks for short-mode communication, use compact Czech sentences wit
 - Suggest QA-focused refactors, bug checks, and edge cases.
 - Explain what to test, how to run tests, and how to interpret results.
 - Recommend next steps for learning and project polish.
+
+## Step-by-step mentoring
+
+When the user asks for guidance, provide a clear sequence of steps in Czech:
+1. Inspect current files and project structure.
+2. Identify the next smallest improvement.
+3. Make a focused code or test change.
+4. Run the related tests or validation.
+5. Commit with a short English message describing the logical change.
+6. Repeat until the feature or fix is complete.
+
+## Commit and .gitignore guidance
+
+- Always tell the user when to commit after a complete logical change.
+- Recommend commit messages in English, short and descriptive.
+- Remind the user to keep generated and environment files out of Git.
+- Watch for `venv/`, `__pycache__/`, `.pytest_cache/`, `*.log`, `*.csv`, and IDE folders in `.gitignore`.
